@@ -1,0 +1,39 @@
+{
+  "generator-jhipster": {
+    "applicationType": "monolith",
+    "gitCompany": "",
+    "baseName": "delete",
+    "packageName": "io.github.jhipster.application",
+    "packageFolder": "io/github/jhipster/application",
+    "serverPort": 8080,
+    "serviceDiscoveryType": false,
+    "authenticationType": "jwt",
+    "uaaBaseName": "../uaa",
+    "cacheProvider": "no",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "enableSwaggerCodegen": false,
+    "messageBroker": false,
+    "buildTool": "maven",
+    "useSass": false,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "enableTranslation": false,
+    "nativeLanguage": "en",
+    "languages": [
+      "en"
+    ],
+    "clientFramework": "angularX",
+    "jhiPrefix": "jhi",
+    "jhipsterVersion": "5.7.2",
+    "jwtSecretKey": "NDJjN2RjNjZmMWQ0MjJlMTBmOTRhYWQ4NjVjNTRmZWUwNWIzNjUzNzIzMjE5YWQ3NmU2YjZlYmU1MDlhZGRmYTViZTNiZTdkMWU5MGJmN2FiNmI3MjY3NTczZWFhYTliYjAwOTUzMGYwNjk1OWI1YmI2NGQzNDI3NDY1MTJiNTI=",
+    "otherModules": []
+  },
+  "git-provider": "GitHub",
+  "git-company": "diatoz",
+  "repository-name": "delete-sample-application"
+}
