@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<databaseChangeLog
+    xmlns="http://www.liquibase.org/xml/ns/dbchangelog"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://www.liquibase.org/xml/ns/dbchangelog http://www.liquibase.org/xml/ns/dbchangelog/dbchangelog-3.5.xsd">
+    <!--
+        Added the constraints for entity Perm.
+    -->
+    <changeSet id="20190107111325-2" author="jhipster">
+        
+        <addForeignKeyConstraint baseColumnNames="perms_id"
+                                 baseTableName="perm_role"
+                                 constraintName="fk_perm_role_perms_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="perm"/>
+        <addForeignKeyConstraint baseColumnNames="roles_id"
+                                 baseTableName="perm_role"
+                                 constraintName="fk_perm_role_roles_id"
+                                 referencedColumnNames="id"
+                                 referencedTableName="role"/>
+        
+    </changeSet>
+</databaseChangeLog>

@@ -1,0 +1,28 @@
+{
+    "name": "Role",
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "relationships": [
+        {
+            "relationshipType": "many-to-many",
+            "relationshipName": "perm",
+            "otherEntityName": "perm",
+            "ownerSide": false,
+            "otherEntityRelationshipName": "role"
+        }
+    ],
+    "changelogDate": "20190107111326",
+    "entityTableName": "role",
+    "dto": "no",
+    "pagination": "no",
+    "service": "serviceImpl",
+    "jpaMetamodelFiltering": false,
+    "fluentMethods": true,
+    "clientRootFolder": "",
+    "applications": "*",
+    "angularJSSuffix": "mySuffix"
+}
